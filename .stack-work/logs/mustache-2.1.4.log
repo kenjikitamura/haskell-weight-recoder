@@ -1,0 +1,109 @@
+Configuring mustache-2.1.4...
+Building mustache-2.1.4...
+Preprocessing library mustache-2.1.4...
+[1 of 6] Compiling Text.Mustache.Types ( src/Text/Mustache/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/Mustache/Types.o )
+[2 of 6] Compiling Text.Mustache.Parser ( src/Text/Mustache/Parser.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/Mustache/Parser.o )
+[3 of 6] Compiling Text.Mustache.Internal ( src/Text/Mustache/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/Mustache/Internal.o )
+[4 of 6] Compiling Text.Mustache.Render ( src/Text/Mustache/Render.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/Mustache/Render.o )
+[5 of 6] Compiling Text.Mustache.Compile ( src/Text/Mustache/Compile.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/Mustache/Compile.o )
+[6 of 6] Compiling Text.Mustache    ( src/Text/Mustache.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/Mustache.o )
+Preprocessing executable 'haskell-mustache' for mustache-2.1.4...
+[1 of 1] Compiling Main             ( app/Main.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/haskell-mustache/haskell-mustache-tmp/Main.o )
+Linking .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/haskell-mustache/haskell-mustache ...
+
+In file included from /var/folders/mq/g4_4zbjd2_j9n60c3kjvqpw8kxwj8l/T/ghc75337_0/ghc_1.c:1:0: error:
+    
+
+In file included from /Users/kitamura/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/Rts.h:217:0: error:
+    
+
+/Users/kitamura/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:505:5: error:
+     warning: macro expansion producing 'defined' has undefined behavior [-Wexpansion-to-defined]
+#if ZERO_SLOP_FOR_LDV_PROF || ZERO_SLOP_FOR_SANITY_CHECK
+    ^
+
+/Users/kitamura/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:502:37: error:
+     note: expanded from macro 'ZERO_SLOP_FOR_LDV_PROF'
+#define ZERO_SLOP_FOR_LDV_PROF     (defined(PROFILING))
+                                    ^
+
+/Users/kitamura/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:505:31: error:
+     warning: macro expansion producing 'defined' has undefined behavior [-Wexpansion-to-defined]
+#if ZERO_SLOP_FOR_LDV_PROF || ZERO_SLOP_FOR_SANITY_CHECK
+                              ^
+
+/Users/kitamura/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:503:37: error:
+     note: expanded from macro 'ZERO_SLOP_FOR_SANITY_CHECK'
+#define ZERO_SLOP_FOR_SANITY_CHECK (defined(DEBUG) && !defined(THREADED_RTS))
+                                    ^
+
+/Users/kitamura/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:505:31: error:
+     warning: macro expansion producing 'defined' has undefined behavior [-Wexpansion-to-defined]
+
+/Users/kitamura/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:503:56: error:
+     note: expanded from macro 'ZERO_SLOP_FOR_SANITY_CHECK'
+#define ZERO_SLOP_FOR_SANITY_CHECK (defined(DEBUG) && !defined(THREADED_RTS))
+                                                       ^
+
+/Users/kitamura/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:523:5: error:
+     warning: macro expansion producing 'defined' has undefined behavior [-Wexpansion-to-defined]
+#if ZERO_SLOP_FOR_LDV_PROF && !ZERO_SLOP_FOR_SANITY_CHECK
+    ^
+
+/Users/kitamura/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:502:37: error:
+     note: expanded from macro 'ZERO_SLOP_FOR_LDV_PROF'
+#define ZERO_SLOP_FOR_LDV_PROF     (defined(PROFILING))
+                                    ^
+
+/Users/kitamura/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:523:32: error:
+     warning: macro expansion producing 'defined' has undefined behavior [-Wexpansion-to-defined]
+#if ZERO_SLOP_FOR_LDV_PROF && !ZERO_SLOP_FOR_SANITY_CHECK
+                               ^
+
+/Users/kitamura/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:503:37: error:
+     note: expanded from macro 'ZERO_SLOP_FOR_SANITY_CHECK'
+#define ZERO_SLOP_FOR_SANITY_CHECK (defined(DEBUG) && !defined(THREADED_RTS))
+                                    ^
+
+/Users/kitamura/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:523:32: error:
+     warning: macro expansion producing 'defined' has undefined behavior [-Wexpansion-to-defined]
+
+/Users/kitamura/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:503:56: error:
+     note: expanded from macro 'ZERO_SLOP_FOR_SANITY_CHECK'
+#define ZERO_SLOP_FOR_SANITY_CHECK (defined(DEBUG) && !defined(THREADED_RTS))
+                                                       ^
+
+/Users/kitamura/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:552:5: error:
+     warning: macro expansion producing 'defined' has undefined behavior [-Wexpansion-to-defined]
+#if ZERO_SLOP_FOR_LDV_PROF && !ZERO_SLOP_FOR_SANITY_CHECK
+    ^
+
+/Users/kitamura/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:502:37: error:
+     note: expanded from macro 'ZERO_SLOP_FOR_LDV_PROF'
+#define ZERO_SLOP_FOR_LDV_PROF     (defined(PROFILING))
+                                    ^
+
+/Users/kitamura/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:552:32: error:
+     warning: macro expansion producing 'defined' has undefined behavior [-Wexpansion-to-defined]
+#if ZERO_SLOP_FOR_LDV_PROF && !ZERO_SLOP_FOR_SANITY_CHECK
+                               ^
+
+/Users/kitamura/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:503:37: error:
+     note: expanded from macro 'ZERO_SLOP_FOR_SANITY_CHECK'
+#define ZERO_SLOP_FOR_SANITY_CHECK (defined(DEBUG) && !defined(THREADED_RTS))
+                                    ^
+
+/Users/kitamura/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:552:32: error:
+     warning: macro expansion producing 'defined' has undefined behavior [-Wexpansion-to-defined]
+
+/Users/kitamura/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:503:56: error:
+     note: expanded from macro 'ZERO_SLOP_FOR_SANITY_CHECK'
+#define ZERO_SLOP_FOR_SANITY_CHECK (defined(DEBUG) && !defined(THREADED_RTS))
+                                                       ^
+9 warnings generated.
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Installing library in
+/Users/kitamura/.stack/snapshots/x86_64-osx/lts-8.24/8.0.2/lib/x86_64-osx-ghc-8.0.2/mustache-2.1.4-AMWhGByQnZu8GVK5uxgCfy
+Installing executable(s) in
+/Users/kitamura/.stack/snapshots/x86_64-osx/lts-8.24/8.0.2/bin
+Registering mustache-2.1.4...
